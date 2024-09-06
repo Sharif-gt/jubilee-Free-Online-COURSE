@@ -53,6 +53,20 @@ h1 {
   padding-top: 40px;
 }
 
+h2 {
+  font-size: 2.5rem;
+  color: #31333a;
+  line-height: 1rem;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+p {
+  line-height: 1.5rem;
+  font-weight: 400;
+  color: #31333a;
+}
+
 header {
   background-image: url("./assets/billboard-bg.png");
   background-repeat: no-repeat;
@@ -223,4 +237,46 @@ header {
   font-weight: bold;
   line-height: 1rem;
   text-transform: uppercase;
+}
+
+.about-section {
+  margin-block: 90px;
+  padding-inline: 15px;
+  gap: 30px;
+}
+
+.about-left {
+  width: 45%;
+  padding-inline: 20px;
+}
+
+.about-left img {
+  border-radius: 50%;
+}
+
+.about-right {
+  width: 45%;
+  margin-left: 10px;
+  padding-inline: 20px;
+}
+
+.about-text {
+  flex-direction: column;
+  gap: 15px;
+}
+
+.about-header {
+  flex-direction: column;
+  gap: 15px;
+  align-items: start;
+}
+
+.about-header p {
+  text-align: left;
+  padding-block: 10px;
+}
+
+.about-point p {
+  text-align: left;
+  padding-left: 25px;
 }
