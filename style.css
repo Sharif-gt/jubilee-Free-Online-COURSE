@@ -509,3 +509,114 @@ header {
   color: #ffffff;
 }
 /* end category-card with hover effect */
+
+.courses {
+  margin-block: 20px;
+  padding-top: 40px;
+}
+
+.course-header {
+  margin-top: 20px;
+  padding: 20px 15px;
+}
+
+.course-header p {
+  color: #ec6c5a;
+}
+
+.course-header h2 {
+  padding-block: 25px;
+}
+
+.total-card-section {
+  flex-direction: column;
+  gap: 20px;
+}
+
+.course-card-body {
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 20px;
+  padding-inline: 10px;
+  padding-block: 10px;
+  margin-block: 20px;
+}
+
+.course-card {
+  width: 255px;
+  height: 385px;
+  background-color: #f5f3f3;
+  border-radius: 10px;
+}
+
+.course-card-items {
+  padding: 10px;
+}
+
+.course-card-items img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.card-head {
+  gap: 10px;
+  justify-content: space-between;
+  padding-top: 5px;
+}
+
+.card-head h4 {
+  font-size: 1rem;
+  line-height: 1.2rem;
+  text-align: left;
+  font-weight: 500;
+  color: #7f7f7f;
+}
+
+.card-time {
+  gap: 5px;
+  color: #7f7f7f;
+}
+
+.card-time p {
+  text-align: left;
+  font-weight: bold;
+  color: #7f7f7f;
+}
+
+.card-title {
+  padding-top: 10px;
+}
+
+.card-title h3 {
+  text-transform: capitalize;
+  text-align: left;
+  font-size: 1.3rem;
+  font-weight: 600;
+  line-height: 1.3rem;
+}
+
+.card-title h3 a {
+  color: var(--dark-color);
+  line-height: 1.6rem;
+}
+
+.card-title h3 a:hover {
+  color: var(--primary-color);
+}
+
+.person-name {
+  gap: 15px;
+  padding-top: 10px;
+}
+
+.person-name p {
+  text-transform: capitalize;
+  color: #7f7f7f;
+}
+
+.person-star {
+  color: var(--primary-color);
+}
