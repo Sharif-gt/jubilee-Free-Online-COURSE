@@ -679,3 +679,36 @@ header {
   color: var(--secondary-color);
   text-transform: capitalize;
 }
+
+.points-title {
+  margin-block: 40px;
+}
+
+.points-title p {
+  color: var(--secondary-color);
+  margin-block: 25px;
+}
+
+.points-title h2 {
+  color: var(--dark-color);
+  line-height: 2rem;
+}
+
+.point-details {
+  justify-content: space-between;
+  gap: 20px;
+  padding: 20px;
+  margin-block: 50px;
+}
+
+.points-left {
+  flex-direction: column;
+  gap: 15px;
+  max-width: 530px;
+}
+
+.points-right {
+  flex-direction: column;
+  gap: 15px;
+  max-width: 530px;
+}
