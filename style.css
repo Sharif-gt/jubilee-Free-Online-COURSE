@@ -712,3 +712,51 @@ header {
   gap: 15px;
   max-width: 530px;
 }
+
+.register {
+  margin-block: 30px;
+  background-color: #ffeed3;
+}
+
+.register-section {
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 40px;
+  padding-block: 100px;
+}
+
+.register-head {
+  color: var(--dark-color);
+  line-height: 3.3rem;
+  text-align: left;
+}
+
+.register-head span {
+  text-transform: uppercase;
+}
+
+.register-text {
+  color: var(--secondary-color);
+  text-align: left;
+  margin-top: 10px;
+}
+
+.register-left {
+  width: 475px;
+  padding: 10px 30px;
+}
+
+.register-right {
+  width: 475px;
+  padding: 10px 30px;
+}
+
+.form-redious {
+  width: 400px;
+  border-radius: 30px;
+  text-align: center;
+}
+
+.form-btn {
+  margin-block: 30px;
+}
