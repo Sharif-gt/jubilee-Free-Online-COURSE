@@ -620,3 +620,62 @@ header {
 .person-star {
   color: var(--primary-color);
 }
+
+.teacher-section-title p {
+  color: var(--secondary-color);
+  line-height: 1rem;
+  padding-block: 10px;
+}
+
+.teacher-section-title h2 {
+  line-height: 2rem;
+  margin-block: 10px;
+  text-transform: capitalize;
+}
+
+/* teacher card */
+.teacher-main-section {
+  margin-block: 100px 10px;
+}
+.teachers-cards-section {
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 20px;
+  padding: 20px;
+  margin-block: 40px;
+}
+
+.teacher-card {
+  width: 200px;
+  height: 322px;
+  background-color: #f5f3f3;
+  border-radius: 10px;
+}
+
+.teacher-details {
+  padding: 15px;
+}
+
+.teacher-details img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  cursor: pointer;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.teacher-details img:hover {
+  transform: scale(1.05);
+}
+
+.teacher-name {
+  padding-top: 15px;
+  color: var(--dark-color);
+}
+
+.teacher-position {
+  color: var(--secondary-color);
+  text-transform: capitalize;
+}
