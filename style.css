@@ -654,6 +654,7 @@ header {
 
 .teacher-details {
   padding: 15px;
+  position: relative;
 }
 
 .teacher-details img {
@@ -678,6 +679,23 @@ header {
 .teacher-position {
   color: var(--secondary-color);
   text-transform: capitalize;
+}
+
+.teacher-link {
+  /* flex-direction: column; */
+  position: absolute;
+  bottom: 75px;
+  transform: translate(20%);
+}
+
+.media {
+  width: 30px;
+  height: 30px;
+  background-color: var(--primary-color);
+  color: #ffffff;
+  align-content: center;
+  border-radius: 5px;
+  padding: 5px;
 }
 
 .points-title {
