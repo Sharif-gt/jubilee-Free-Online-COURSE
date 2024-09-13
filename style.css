@@ -125,16 +125,18 @@ header {
   justify-content: space-between;
   padding-inline: 35px;
   padding-block: 15px;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .navbar {
   max-width: 835px;
   padding-inline: 10px;
+  position: relative;
 }
 
 .nav-links {
-  gap: 50px;
+  gap: 40px;
+  transition: 0.4s;
 }
 
 .nav-link {
@@ -149,6 +151,33 @@ header {
   color: var(--primary-color);
 }
 
+.navbar ul li:hover .dropdown {
+  visibility: inherit;
+}
+
+.dropdown {
+  align-items: flex-start;
+  background-color: #ffffff;
+  border: 1px solid var(--grey-color);
+  border-radius: 5px;
+  font-weight: bold;
+  flex-direction: column;
+  gap: 15px;
+  padding: 15px 15px;
+  position: absolute;
+  top: 20px;
+  text-transform: uppercase;
+  visibility: hidden;
+}
+
+.dropdown li a {
+  color: var(--dark-color);
+}
+
+.dropdown li a:hover {
+  color: var(--primary-color);
+}
+
 .navicon {
   max-width: 180px;
   padding-inline: 10px;
@@ -160,6 +189,11 @@ header {
 
 .nav-icon {
   color: var(--dark-color);
+}
+
+.hamburger {
+  color: var(--dark-color);
+  display: none;
 }
 
 .main-header {
