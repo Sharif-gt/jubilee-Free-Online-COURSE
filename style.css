@@ -671,6 +671,10 @@ header {
   transform: scale(1.05);
 }
 
+.teacher-details:hover .media {
+  visibility: inherit;
+}
+
 .teacher-name {
   padding-top: 15px;
   color: var(--dark-color);
@@ -682,7 +686,6 @@ header {
 }
 
 .teacher-link {
-  /* flex-direction: column; */
   position: absolute;
   bottom: 75px;
   transform: translate(20%);
@@ -696,6 +699,7 @@ header {
   align-content: center;
   border-radius: 5px;
   padding: 5px;
+  visibility: hidden;
 }
 
 .points-title {
