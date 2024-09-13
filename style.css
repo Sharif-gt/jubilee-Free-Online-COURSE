@@ -760,3 +760,64 @@ header {
 .form-btn {
   margin-block: 30px;
 }
+
+/* footer section */
+
+.footer-section {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-block: 30px;
+  padding: 40px 20px;
+  gap: 30px;
+}
+
+.footer-logos {
+  width: 240px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.footer-icon {
+  margin-block: 10px;
+  gap: 25px;
+}
+
+.footer-icon a {
+  color: #6c757d;
+}
+
+.footer-icon a:hover {
+  color: var(--primary-color);
+}
+
+.menu-list {
+  flex-direction: column;
+  padding-inline: 10px;
+  gap: 10px;
+  align-items: flex-start;
+}
+
+.menu-list h4 {
+  color: var(--dark-color);
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+  margin-bottom: 10px;
+}
+
+.menu-title {
+  color: var(--dark-color);
+  text-transform: capitalize;
+}
+
+.menu-title:hover {
+  color: var(--primary-color);
+}
+
+.footer-menu {
+  flex-wrap: wrap;
+  width: 700px;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: flex-start;
+}
