@@ -68,7 +68,7 @@ p {
 }
 
 header {
-  background-image: url("./assets/billboard-bg.png");
+  background-image: url("../assets/billboard-bg.png");
   background-repeat: no-repeat;
 }
 
@@ -125,7 +125,6 @@ header {
   justify-content: space-between;
   padding-inline: 35px;
   padding-block: 15px;
-  /* overflow: hidden; */
 }
 
 .navbar {
