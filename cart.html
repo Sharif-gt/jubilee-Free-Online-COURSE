@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Instructors</title>
+    <title>My Cart</title>
     <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon" />
     <link
       rel="stylesheet"
@@ -50,6 +50,7 @@
                   <li><a href="about.html">about us</a></li>
                   <li><a href="instructors.html">instructors</a></li>
                   <li><a href="cart.html">cart</a></li>
+                  <li><a href="#">wishlist</a></li>
                   <li><a href="#">checkout</a></li>
                   <li><a href="#">price plan</a></li>
                   <li><a href="#">contact</a></li>
@@ -134,206 +135,136 @@
       <!-- end total nav bar -->
       <header>
         <div class="container page-header">
-          <h1>instructors</h1>
+          <h1>my cart</h1>
         </div>
       </header>
-      <!-- teacher section -->
-      <section class="container teacher-main-section">
-        <div class="teacher-section-title">
-          <p>Meet our popular teachers</p>
-          <h2>our teachers</h2>
-        </div>
-        <!-- teacher section cards -->
-        <div class="flex teachers-cards-section">
-          <div class="teacher-card">
-            <div class="teacher-details">
-              <img src="./assets/teacher1.jpg" alt="teacher-pic" />
-              <div class="teacher-name">
-                <h4>Anila Lee</h4>
-                <p class="teacher-position">Art Director</p>
-              </div>
-              <div class="flex teacher-link">
-                <a href="#" class="media"
-                  ><i class="fa-brands fa-facebook fa-xl"></i
-                ></a>
-                <a href="#" class="media"
-                  ><i class="fa-brands fa-twitter fa-xl"></i
-                ></a>
-                <a href="#" class="media"
-                  ><i class="fa-brands fa-instagram fa-xl"></i
-                ></a>
-                <a href="#" class="media"
-                  ><i class="fa-brands fa-linkedin fa-xl"></i
-                ></a>
-              </div>
-            </div>
+      <!-- cart section -->
+      <!-- end cart section -->
+      <section class="my-cart">
+        <div class="container flex full-cart">
+          <!-- cart product -->
+          <div class="cart-table">
+            <table>
+              <!-- table head -->
+              <thead class="table-title">
+                <tr>
+                  <th class="capitalize">product</th>
+                  <th class="capitalize">quantity</th>
+                  <th class="capitalize">price</th>
+                  <th class="capitalize">remove</th>
+                </tr>
+              </thead>
+              <!-- table body -->
+              <tbody>
+                <tr class="table-row">
+                  <td>
+                    <div class="flex cart-items">
+                      <div class="cart-img">
+                        <img src="./assets/item1.jpg" alt="cart-item-img" />
+                      </div>
+                      <div>
+                        <a href="#"
+                          ><h4 class="capitalize">seo analysis course</h4></a
+                        >
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="cart-count">
+                      <a href="#"><i class="fa-solid fa-minus fa-sm"></i></a>
+                      <input type="number" name="number" value="1" />
+                      <a href="#"><i class="fa-solid fa-plus fa-sm"></i></a>
+                    </div>
+                  </td>
+                  <td class="cart-price">
+                    <p>$150.00</p>
+                  </td>
+                  <td class="cart-delete">
+                    <i class="fa-solid fa-trash-can fa-sm"></i>
+                  </td>
+                </tr>
+                <tr class="table-row">
+                  <td>
+                    <div class="flex cart-items">
+                      <div class="cart-img">
+                        <img src="./assets/item2.jpg" alt="cart-item-img" />
+                      </div>
+                      <div>
+                        <a href="#"
+                          ><h4 class="capitalize">Marketing Course</h4></a
+                        >
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="cart-count">
+                      <a href="#"><i class="fa-solid fa-minus fa-sm"></i></a>
+                      <input type="number" name="number" value="1" />
+                      <a href="#"><i class="fa-solid fa-plus fa-sm"></i></a>
+                    </div>
+                  </td>
+                  <td class="cart-price">
+                    <p>$190.00</p>
+                  </td>
+                  <td class="cart-delete">
+                    <i class="fa-solid fa-trash-can fa-sm"></i>
+                  </td>
+                </tr>
+                <tr class="table-row">
+                  <td>
+                    <div class="flex cart-items">
+                      <div class="cart-img">
+                        <img src="./assets/item3.jpg" alt="cart-item-img" />
+                      </div>
+                      <div>
+                        <a href="#"
+                          ><h4 class="capitalize">
+                            Digital Marketing course
+                          </h4></a
+                        >
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="cart-count">
+                      <a href="#"><i class="fa-solid fa-minus fa-sm"></i></a>
+                      <input type="number" name="number" value="1" />
+                      <a href="#"><i class="fa-solid fa-plus fa-sm"></i></a>
+                    </div>
+                  </td>
+                  <td class="cart-price">
+                    <p>$260.00</p>
+                  </td>
+                  <td class="cart-delete">
+                    <i class="fa-solid fa-trash-can fa-sm"></i>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
           </div>
-          <div class="teacher-card">
-            <div class="teacher-details">
-              <img src="./assets/teacher2.jpg" alt="teacher-pic" />
-              <div class="teacher-name">
-                <h4>Bruce Smith</h4>
-                <p class="teacher-position">Marketing Expert</p>
+          <!-- Cart Total -->
+          <div class="cart-total">
+            <div class="total-cart-items">
+              <h2>Cart Total</h2>
+              <div class="flex sub-total">
+                <p>Subtotal</p>
+                <p>$1,500.00</p>
               </div>
-              <div class="flex teacher-link">
-                <a href="#" class="media"
-                  ><i class="fa-brands fa-facebook fa-xl"></i
-                ></a>
-                <a href="#" class="media"
-                  ><i class="fa-brands fa-twitter fa-xl"></i
-                ></a>
-                <a href="#" class="media"
-                  ><i class="fa-brands fa-instagram fa-xl"></i
-                ></a>
-                <a href="#" class="media"
-                  ><i class="fa-brands fa-linkedin fa-xl"></i
-                ></a>
+              <div class="flex total-price">
+                <p>Total</p>
+                <p>$1,500.00</p>
               </div>
-            </div>
-          </div>
-          <div class="teacher-card">
-            <div class="teacher-details">
-              <img src="./assets/teacher3.jpg" alt="teacher-pic" />
-              <div class="teacher-name">
-                <h4>Jack Nicholson</h4>
-                <p class="teacher-position">SEO Expert</p>
+              <div class="flex cart-btn">
+                <a href="#" class="secondary-btn">update cart</a>
+                <a href="#" class="secondary-btn">continue shop</a>
               </div>
-              <div class="flex teacher-link">
-                <a href="#" class="media"
-                  ><i class="fa-brands fa-facebook fa-xl"></i
-                ></a>
-                <a href="#" class="media"
-                  ><i class="fa-brands fa-twitter fa-xl"></i
-                ></a>
-                <a href="#" class="media"
-                  ><i class="fa-brands fa-instagram fa-xl"></i
-                ></a>
-                <a href="#" class="media"
-                  ><i class="fa-brands fa-linkedin fa-xl"></i
-                ></a>
-              </div>
-            </div>
-          </div>
-          <div class="teacher-card">
-            <div class="teacher-details">
-              <img src="./assets/teacher4.jpg" alt="teacher-pic" />
-              <div class="teacher-name">
-                <h4>Calvin Ian</h4>
-                <p class="teacher-position">Sales Director</p>
-              </div>
-              <div class="flex teacher-link">
-                <a href="#" class="media"
-                  ><i class="fa-brands fa-facebook fa-xl"></i
-                ></a>
-                <a href="#" class="media"
-                  ><i class="fa-brands fa-twitter fa-xl"></i
-                ></a>
-                <a href="#" class="media"
-                  ><i class="fa-brands fa-instagram fa-xl"></i
-                ></a>
-                <a href="#" class="media"
-                  ><i class="fa-brands fa-linkedin fa-xl"></i
-                ></a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="flex teachers-cards-section">
-          <div class="teacher-card">
-            <div class="teacher-details">
-              <img src="./assets/teacher5.jpg" alt="teacher-pic" />
-              <div class="teacher-name">
-                <h4>Milye Sam</h4>
-                <p class="teacher-position">Marketing Expert</p>
-              </div>
-              <div class="flex teacher-link">
-                <a href="#" class="media"
-                  ><i class="fa-brands fa-facebook fa-xl"></i
-                ></a>
-                <a href="#" class="media"
-                  ><i class="fa-brands fa-twitter fa-xl"></i
-                ></a>
-                <a href="#" class="media"
-                  ><i class="fa-brands fa-instagram fa-xl"></i
-                ></a>
-                <a href="#" class="media"
-                  ><i class="fa-brands fa-linkedin fa-xl"></i
-                ></a>
-              </div>
-            </div>
-          </div>
-          <div class="teacher-card">
-            <div class="teacher-details">
-              <img src="./assets/teacher6.jpg" alt="teacher-pic" />
-              <div class="teacher-name">
-                <h4>Ian Patrik</h4>
-                <p class="teacher-position">Marketing Expert</p>
-              </div>
-              <div class="flex teacher-link">
-                <a href="#" class="media"
-                  ><i class="fa-brands fa-facebook fa-xl"></i
-                ></a>
-                <a href="#" class="media"
-                  ><i class="fa-brands fa-twitter fa-xl"></i
-                ></a>
-                <a href="#" class="media"
-                  ><i class="fa-brands fa-instagram fa-xl"></i
-                ></a>
-                <a href="#" class="media"
-                  ><i class="fa-brands fa-linkedin fa-xl"></i
-                ></a>
-              </div>
-            </div>
-          </div>
-          <div class="teacher-card">
-            <div class="teacher-details">
-              <img src="./assets/teacher7.jpg" alt="teacher-pic" />
-              <div class="teacher-name">
-                <h4>Opal Roger</h4>
-                <p class="teacher-position">SEO Expert</p>
-              </div>
-              <div class="flex teacher-link">
-                <a href="#" class="media"
-                  ><i class="fa-brands fa-facebook fa-xl"></i
-                ></a>
-                <a href="#" class="media"
-                  ><i class="fa-brands fa-twitter fa-xl"></i
-                ></a>
-                <a href="#" class="media"
-                  ><i class="fa-brands fa-instagram fa-xl"></i
-                ></a>
-                <a href="#" class="media"
-                  ><i class="fa-brands fa-linkedin fa-xl"></i
-                ></a>
-              </div>
-            </div>
-          </div>
-          <div class="teacher-card">
-            <div class="teacher-details">
-              <img src="./assets/teacher8.jpg" alt="teacher-pic" />
-              <div class="teacher-name">
-                <h4>Calvin Ian</h4>
-                <p class="teacher-position">Sales Director</p>
-              </div>
-              <div class="flex teacher-link">
-                <a href="#" class="media"
-                  ><i class="fa-brands fa-facebook fa-xl"></i
-                ></a>
-                <a href="#" class="media"
-                  ><i class="fa-brands fa-twitter fa-xl"></i
-                ></a>
-                <a href="#" class="media"
-                  ><i class="fa-brands fa-instagram fa-xl"></i
-                ></a>
-                <a href="#" class="media"
-                  ><i class="fa-brands fa-linkedin fa-xl"></i
-                ></a>
+              <div class="cart-checkout">
+                <a href="#" class="primary-btn">proceed to checkout</a>
               </div>
             </div>
           </div>
         </div>
       </section>
-      <!-- end teacher section -->
       <!-- register section -->
       <section class="register">
         <div class="container">
